@@ -806,8 +806,7 @@ textarea {
 }
 
 .check .checkbox:checked {
-  background-image: url("../images/icons/icon check.sv");
-  background-position: center;
+  background: #000;
 }
 
 .check a {
