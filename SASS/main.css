@@ -805,26 +805,8 @@ textarea {
   outline: solid 1px;
 }
 
-.check .icon {
-  position: relative;
-  top: 4px;
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border: 2px solid #2a2a2a;
-  border-radius: 4px;
-  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.check .checkbox {
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-}
-
-.check .checkbox:checked + .icon {
-  background-image: url("../../images/icons/icon check.svg");
+.check .checkbox:checked {
+  background-image: url("../images/icons/icon check.sv");
   background-position: center;
 }
 
